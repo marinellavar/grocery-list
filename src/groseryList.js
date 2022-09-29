@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+
 import { Component } from "react";
 import check from './check.jpg';
 
@@ -10,6 +10,7 @@ class GroseryList extends Component{
     }
     onChangeEvent(e){
         this.setState({userInput: e});
+        console.log(e)
         }
 
         addItem(input){
